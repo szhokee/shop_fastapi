@@ -1,7 +1,6 @@
 from sqlalchemy import Column, ForeignKey, Integer, String, Float, Text
 from database import Base
 
-
 class Product(Base):
     __tablename__ = "product"
     id = Column(Integer, nullable=False, unique=True, autoincrement=True, primary_key=True)

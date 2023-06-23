@@ -102,7 +102,6 @@ def add_to_cart(response: Response, product_to_cart: ProductToCart, db=Depends(g
     response.status_code = result["status_code"]
     return result["response"]
 
-
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()

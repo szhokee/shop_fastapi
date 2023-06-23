@@ -9,7 +9,6 @@ class BaseProduct(BaseModel):
     class Config:
         orm_mode = True
 
-
 class DetailedProductOut(BaseProduct):
     description: constr(strip_whitespace=True) | None = None
 
