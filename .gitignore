@@ -1,6 +1,6 @@
 *.txt
 *.sh
-venv/
+vevn/
 .*
 __*
 !.env
